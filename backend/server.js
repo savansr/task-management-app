@@ -12,7 +12,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-   origin:'https://task-management-app-9tex.onrender.com'}
+   origin:'https://task-management-5c2756lcx-savan-rathods-projects.vercel.app'}
 ));
 app.use(express.json());
 app.use(morgan('dev'));
