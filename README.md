@@ -232,6 +232,5 @@ Each user will have the following tasks:
 ## License
 <<<<<<< HEAD
 This project is licensed under the MIT License.
-=======
-This project is licensed under the MIT License. 
->>>>>>> d30b4c5 (First commit)
+
+
