@@ -83,7 +83,11 @@ A full-stack task management application built with the MERN stack (MongoDB, Exp
 3. Create a `.env` file in the backend directory with the following variables:
    ```
    PORT=5001
+<<<<<<< HEAD
    MONGODB_URI=mongodb://localhost:27017/task-management //use can you mongodb-atlas url as well
+=======
+   MONGODB_URI=mongodb://localhost:27017/task-management
+>>>>>>> d30b4c5 (First commit)
    JWT_SECRET=your_jwt_secret_key_here
    NODE_ENV=development
    ```
@@ -226,4 +230,8 @@ Each user will have the following tasks:
 5. Create a new Pull Request
 
 ## License
+<<<<<<< HEAD
 This project is licensed under the MIT License.
+=======
+This project is licensed under the MIT License. 
+>>>>>>> d30b4c5 (First commit)
