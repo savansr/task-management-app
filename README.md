@@ -83,7 +83,7 @@ A full-stack task management application built with the MERN stack (MongoDB, Exp
 3. Create a `.env` file in the backend directory with the following variables:
    ```
    PORT=5001
-   MONGODB_URI=mongodb://localhost:27017/task-management
+   MONGODB_URI=mongodb://localhost:27017/task-management //use can you mongodb-atlas url as well
    JWT_SECRET=your_jwt_secret_key_here
    NODE_ENV=development
    ```
