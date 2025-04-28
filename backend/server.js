@@ -11,7 +11,9 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+   origin:'https://task-management-app-9tex.onrender.com'}
+));
 app.use(express.json());
 app.use(morgan('dev'));
 
