@@ -5,23 +5,23 @@ A full-stack task management application built with Node.js, TypeScript, Prisma,
 ## Features
 
 ### Backend
-- ✅ User Authentication (Register, Login, Logout)
-- ✅ JWT-based security with Access and Refresh Tokens
-- ✅ Password hashing with bcrypt
-- ✅ Task CRUD operations
-- ✅ Task pagination, filtering, and search
-- ✅ TypeScript throughout
-- ✅ Prisma ORM with PostgreSQL
+-  User Authentication (Register, Login, Logout)
+-  JWT-based security with Access and Refresh Tokens
+-  Password hashing with bcrypt
+-  Task CRUD operations
+-  Task pagination, filtering, and search
+-  TypeScript throughout
+-  Prisma ORM with PostgreSQL
 
 ### Frontend
-- ✅ Next.js 14 with App Router
-- ✅ TypeScript
-- ✅ Responsive design (mobile and desktop)
-- ✅ Authentication pages (Login/Register)
-- ✅ Task Dashboard with filtering and search
-- ✅ Task CRUD operations
-- ✅ Toast notifications
-- ✅ Automatic token refresh
+-  Next.js 14 with App Router
+-  TypeScript
+-  Responsive design (mobile and desktop)
+-  Authentication pages (Login/Register)
+-  Task Dashboard with filtering and search
+-  Task CRUD operations
+-  Toast notifications
+-  Automatic token refresh
 
 ## Prerequisites
 
@@ -42,10 +42,10 @@ npm install
 
 ```env
 DATABASE_URL="postgresql://user:password@localhost:5432/taskmanager?schema=public"
-JWT_ACCESS_SECRET="your-access-token-secret-key-change-this"
-JWT_REFRESH_SECRET="your-refresh-token-secret-key-change-this"
-JWT_ACCESS_EXPIRES_IN="15m"
-JWT_REFRESH_EXPIRES_IN="7d"
+JWT_ACCESS_SECRET=""
+JWT_REFRESH_SECRET=""
+JWT_ACCESS_EXPIRES_IN=""
+JWT_REFRESH_EXPIRES_IN=""
 PORT=3001
 ```
 
